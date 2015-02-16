@@ -2,8 +2,7 @@
 # Does not support any other platform but extending it
 # is trivial.
 
-package "docker" do
-  action :install
+docker_install do
 end
 
 service "docker" do
